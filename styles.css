@@ -23,7 +23,11 @@ html{
 .images{
  width: 40%;
  border-radius: 20px 0px 0px 20px;
- 
+ transition: all 500ms linear;
+ cursor: pointer;
+}
+.images:hover{
+    transform: scale(1.1);
 }
 
 .conteiner-registration{
@@ -217,6 +221,7 @@ select{
     font-family: 'Roboto';
     margin-top: 25px;
     transition: all 500ms linear;
+    cursor: pointer;
 }
 
 .button:hover{
