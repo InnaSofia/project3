@@ -216,8 +216,10 @@ select{
     font-weight: 500;
     font-family: 'Roboto';
     margin-top: 25px;
+    transition: all 500ms linear;
 }
 
 .button:hover{
     background-color: #0f7fb2;
+    transform: scale(1.1);
 }
